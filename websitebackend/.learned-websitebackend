@@ -1,0 +1,18 @@
+Stuff I learned while coding this module
+
+loopback
+--.json files used for creating custom endpoints (i.e. service calls)
+
+loopback-component-storage
+--root json config specified folder must exist for server to start up properly
+--need a level of indirection between db and file system (e.g. PostImage & ImageFile)
+
+sharp
+--can be imported into a .js file : require('sharp')
+--allows image manipulation
+
+fs
+--filesystem manipulation : require('fs')
+
+loopback-connector-mongodb
+Mongo db
