@@ -1,0 +1,9 @@
+Import finds exported objects in a given javascript file
+--can use relative paths for in-project files or identifiers for globals
+
+If we use the var keyword for a variable it can be accessed outside of a method/class, use let or const instead
+
+When assigning variables you can use a destructuring assignment using {} pulls it from the value on the right, https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let
+-ex let { bar } = foo; // where foo = { bar:10, baz:12 }; -> creates variable bar in local scope and assigns it the value of foo['bar'];
+
+== is a shallow equals, use !== for a deep equals

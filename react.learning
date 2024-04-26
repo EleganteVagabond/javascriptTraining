@@ -1,0 +1,7 @@
+One essential method in any react component is render()
+
+Don't call setState in any method that gets called after state change UNLESS you can use a condition to ensure it won't get called infinitely
+
+Props are passed in from above. If you have a component and you set props on it e.g. <HighScore someProp={this.state.someValue} /> then you access it using this.props.someProp in the component class
+
+Handlers in the rendered HTML can be simplified from using the {(e) => someFunction(e)} syntax to {someFunction} when someFunction has a matching signature to the JS event
